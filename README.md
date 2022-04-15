@@ -8,9 +8,11 @@ Install requirements from requirements.txt using `pip install -r requirements.tx
 and run main.py. Dash will launch a dashboard by default on a localhost:8050/.
 <p>To exist out gracefully, hit cntrl+c. This will issue sig kill to stop the server</p>
 
-##TIP
+## TIP
+
 Currently, changing data selection or chart options deselects the previously selected legends. To easily select one and deselect all or to select all, try double-clicking on legends.
 <br>Some selections are computationally expensive so it will take time to update the chart e.g. checking percent change daily on the whole data period (1984-2017).
+
 ## About Project
 
 This project was made as a part of the interview process. FAANG stocks (Facebook, Apple, Amazon, Netflix and Google)
@@ -35,7 +37,8 @@ calculations would have been straightforward. The stock prices summation only ne
 causing sudden fluctuation in the Index. This index is used to compare with NASDAQ which is calculated by weighted average.
 Weight is assigned as the market capitalization of stock. FAANG Index can also be calculated similarly but both models have their pros and cons.</p>
 
-##Screenshots
-<img src="https://drive.google.com/file/d/1uQ6a0qLVGU3bHGDevCPuqlKnltYd2IAW/view?usp=sharing"/>
-<img src="https://drive.google.com/file/d/1MVqZfKhds7Hm7FQthO1WY736anlN82ap/view?usp=sharing"/>
-<img src="https://drive.google.com/file/d/1RPip8w1hqpmhd9cAIiQlZtw6GSB4I9J0/view?usp=sharing"/>
+## Screenshots
+
+Screenshot 2022-04-15 at 04-12-34 Dash.png![image](https://user-images.githubusercontent.com/24661468/163562711-394c251e-12b9-465b-9d42-2687ef3bbff6.png)
+Screenshot 2022-04-15 at 04-16-32 Dash.png![image](https://user-images.githubusercontent.com/24661468/163562748-8ba3d5bc-88d2-456b-8c40-589973eafe50.png)
+Screenshot 2022-04-15 at 04-26-54 Dash.png![image](https://user-images.githubusercontent.com/24661468/163562776-f3d41046-3ad5-4e58-a3a5-f80d12603945.png)
