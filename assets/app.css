@@ -1,0 +1,17 @@
+#options_main{
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+    border-spacing: 10px; 
+}
+#period_main, #sampling_main, #chart_main{
+    display: table-cell;
+}
+
+#period_main, #sampling_main, #chart_main,
+#period_lab,#sampling_lab,#chart_lab,
+#period_dd, #sampling_dd, #chart_dd,
+#Main,#Volume{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
